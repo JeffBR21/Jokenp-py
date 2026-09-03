@@ -41,6 +41,7 @@ while n1:
             print("Sua escolha foi: ", n2)
             print("A escolha da maquina foi: ", r)
             print("Empate!")
+            print(f"Resultado do jogador vs a máquina {rj} x {rm}")
         elif (n2 == 1 and r == 3 or n2 == 2 and r ==1 or n2 == 3 and r == 2 ):
             print("Jó")
             sleep(1)
